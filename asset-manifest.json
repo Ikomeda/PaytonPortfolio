@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PaytonPortfolio/static/css/main.da026e44.css",
+    "main.js": "/PaytonPortfolio/static/js/main.d86a1c7c.js",
+    "static/media/proj1.png": "/PaytonPortfolio/static/media/proj1.dd28ff5a1504a6ab3518.png",
+    "static/media/Payton.jpg": "/PaytonPortfolio/static/media/Payton.f1491bf48d8bc2222dbe.jpg",
+    "static/media/buddhahike.jpg": "/PaytonPortfolio/static/media/buddhahike.7328ed9446791642bc01.jpg",
+    "index.html": "/PaytonPortfolio/index.html",
+    "main.da026e44.css.map": "/PaytonPortfolio/static/css/main.da026e44.css.map",
+    "main.d86a1c7c.js.map": "/PaytonPortfolio/static/js/main.d86a1c7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da026e44.css",
+    "static/js/main.d86a1c7c.js"
+  ]
+}
