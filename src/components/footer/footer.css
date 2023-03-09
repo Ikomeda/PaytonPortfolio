@@ -1,0 +1,15 @@
+.icons {
+    background: rgba(126, 107, 119, 0.75); 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 25px solid black;  ;
+}
+.icons a {
+    font-size: 3rem;
+    color: rgb(14, 53, 5, 0.75);
+}
+
+.icons a:hover {
+    background:rgba(130, 100, 100, 0.75);
+}

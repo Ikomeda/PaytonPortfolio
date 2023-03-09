@@ -1,0 +1,63 @@
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(45deg, rgba(126, 107, 119, 0.75), rgba(14, 53, 5, 0.75));
+
+}
+.project-center {
+    text-align: center;
+}
+.pro1 {
+    border: 10px solid black;
+    position: relative;
+    display: flex;
+    height: 40vh;
+    width: 85vw;
+    background-image: url("https://c.tenor.com/gQV5VzHLWQIAAAAd/among-us-sus.gif");
+    background-size: cover;
+    margin: 10px 20px;
+}
+.pro2 {
+    border: 10px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    width: 40vw;
+    background-image: url("https://c.tenor.com/gQV5VzHLWQIAAAAd/among-us-sus.gif");
+    background-size: cover;
+    margin: 10px 20px;
+}
+.pro3 {
+    border: 10px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    width: 40vw;
+    background-image: url("../../assets/proj1.png");
+    background-size: cover;
+    margin: 10px 20px;
+}
+.text-overlay {
+    display: flex;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    font-size: 2.0vmax;
+    background-color: gray;
+    padding: 8px;
+    border: 10px solid gray;
+}
+
+.access img {
+    margin: 1rem;
+    width: 200px;
+    height: auto;
+}
+@media all and (max-width: 768px) {
+.pro2 {height: 40vh; width: 85vw;}
+.pro3 {height: 40vh; width: 85vw;}
+}

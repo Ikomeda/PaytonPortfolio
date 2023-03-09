@@ -1,0 +1,35 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/buddhahike.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 99.14vw;
+}
+.hero-inner {
+    display: flex;
+    margin: 30px 0 30px 60px;
+    justify-content: center;
+    width: 50vw;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgba(126, 107, 119, 0.75), rgba(14, 53, 5, 0.75));
+    border: solid 3px var(--verydarkblue);
+    border-radius: 10px;
+    height: min-content;
+}
+.hero-img {
+    display: flex;
+    height: 40vh;
+    width: auto;
+    margin: 20px 35px 20px 20px;
+}
+.about-text {
+    color: white
+}
+
+@media screen and (max-width: 768px) {
+    .hero-inner {height: 75vh; width: 50vw; flex-direction: column; }
+    .hero-text {text-align: center;}
+    }
