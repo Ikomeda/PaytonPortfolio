@@ -1,0 +1,22 @@
+.navbar {
+    background: rgba(126, 107, 119, 0.75); 
+    border-bottom: 25px solid black;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    background:rgba(130, 100, 100, 0.75);
+}
