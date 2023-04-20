@@ -1,15 +1,17 @@
 .navbar {
     background: rgba(126, 107, 119, 0.75); 
-    border-bottom: 25px solid black;  
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.navbar h1 {
+    margin-left: 15px;
+}
+
 .nav-link {
     list-style: none;
     display: inline-flex;
-    margin-left: 25px;
-    margin-right: 5px;
+    margin-right: 25px;
 }
 
 .nav-link a {
