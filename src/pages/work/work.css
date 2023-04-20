@@ -3,19 +3,30 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: linear-gradient(45deg, rgba(126, 107, 119, 0.75), rgba(14, 53, 5, 0.75));
+    background-color:  rgba(14, 53, 5, 0.75);
 
 }
 .project-center {
     text-align: center;
 }
-.pro1 {
+/* .pro1 {
     border: 10px solid black;
     position: relative;
     display: flex;
     height: 40vh;
     width: 85vw;
     background-image: url("https://c.tenor.com/gQV5VzHLWQIAAAAd/among-us-sus.gif");
+    background-size: cover;
+    margin: 10px 20px;
+} */
+.pro1 {
+    border: 10px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    width: 40vw;
+    background-image: url("../../assets/buddhahike.jpg");
     background-size: cover;
     margin: 10px 20px;
 }
@@ -26,7 +37,7 @@
     flex-direction: row;
     height: 40vh;
     width: 40vw;
-    background-image: url("https://c.tenor.com/gQV5VzHLWQIAAAAd/among-us-sus.gif");
+    background-image: url("../../assets/emptracker.jpg");
     background-size: cover;
     margin: 10px 20px;
 }
@@ -37,13 +48,25 @@
     flex-direction: row;
     height: 40vh;
     width: 40vw;
-    background-image: url("../../assets/proj1.png");
+    background-image: url("../../assets/ecommerce.png");
+    background-size: cover;
+    margin: 10px 20px;
+}
+.pro4 {
+    border: 10px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    width: 40vw;
+    background-image: url("../../assets/database.png");
     background-size: cover;
     margin: 10px 20px;
 }
 .text-overlay {
     display: flex;
-    position: absolute;
+    justify-content: center;
+    align-items: center;
     bottom: 50%;
     left: 0;
     font-size: 2.0vmax;

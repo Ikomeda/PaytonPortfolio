@@ -30,6 +30,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    .hero-inner {height: 75vh; width: 50vw; flex-direction: column; }
+    .hero-inner {height: 75vh; width: 50vw; flex-direction: column; margin-left: 0px; }
+    .hero-img {align-items: center;}
     .hero-text {text-align: center;}
     }
+
+@media screen and (max-width: 425px) {
+    .hero-img {height: auto; width: 40vw; align-items: center; margin-left: 35px;}
+}

@@ -12,8 +12,8 @@ const Navbar = () => {
                     <ul className="nav-ul">
                         <li className="nav-link"><Link to="/PaytonPortfolio">About Me</Link></li>
                         <li className="nav-link"><Link to="/PaytonPortfolio/work">My Work</Link></li>
-                        <li className="nav-link"><Link to="/PaytonPortfolio/contact">Contact Me</Link></li>
-                        <li className="nav-link"><Link to="https://docs.google.com/document/d/1by4g6JM5e-1X92v-NOnF9c7xdRlrVtRRsbimMiJghD0/edit?usp=sharing" target="blank">Resume</Link></li>
+                        {/* <li className="nav-link"><Link to="/PaytonPortfolio/contact">Contact Me</Link></li> */}
+                        <li className="nav-link"><Link to="https://docs.google.com/document/d/1of2k1k_c-o5sTKBWWcs0jLSifnyX9jEtdQ9eTsQk5cs/edit?usp=sharing" target="blank">Resume</Link></li>
                     </ul>
                 </div>
             </nav>

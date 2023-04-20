@@ -14,8 +14,8 @@ const About = () => {
                 <section id="about">
                     <h2>About Me</h2>
                     <p className="about-text">Hey there, I just finished a fullstack boot-camp through UofU. 
-                        I'm very much a nerd, but more of a jack of all trades kind of one. I dabble in a lot of things, like MTG, Board Games, YuGiOh, Anime, Dungeons and Dragons, and so much more.
-                        I also LOVE hiking, getting together with friends and family, and binging shows with my wife.
+                        I'm very much a nerd, but more of a jack of all trades kind of one. I dabble in a lot of things, like MTG, Board Games, Anime, Dungeons and Dragons,
+                        I also LOVE hiking and binging shows with my wife.
                     </p>
                 </section>
             </div>
